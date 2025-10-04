@@ -1,0 +1,135 @@
+    // .container_2 {
+    //     width: 1440px;
+    //     height: 600px;
+    // }
+
+    .sunset {
+        width: 1420px;
+        height: 600px;
+        margin: auto;
+        background-image: url(../images/sunset_at_mountain.png);
+        position: relative;
+
+    &_title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        top: 260px;
+        right: 150px;
+    }
+
+    &_text {
+        width: 298px;
+        height: 60px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #C0C0C0;
+        position: absolute;
+        top: 280px;
+        right: 50px;
+    }
+
+    &__icons {
+        position: relative;
+        left: 140px;
+    }
+  }
+
+
+    .wind_force_elements_2 {
+        display: flex;
+        gap: 5px;
+        position: absolute;
+        top: 550px;
+        left: 1000px;
+
+    &_icon {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    &_text {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+    }
+}
+
+    .snap_elements_2 {
+        display: flex;
+        gap: 5px;
+        margin-left: 20px;
+        position: absolute;
+        top: 550px;
+        left: 1020px;
+
+    &_icon {
+        width: 16px;
+        height: 16px;
+        color: #fff;
+    }
+
+    &_text {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+    }
+}
+
+    .ISO_elements_2 {
+        display: flex;
+        gap: 5px;
+        margin-left: 20px;
+        position: absolute;
+        top: 550px;
+        left: 1080px;
+
+    &_icon {
+        width: 32px;
+        height: 16px;
+        color: #fff;
+    }
+
+    &_text {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+    }
+}
+
+    .location_elements_2 {
+        display: flex;
+        gap: 5px;
+        margin-left: 20px;
+        position: absolute;
+        top: 550px;
+        left: 1150px;
+   
+    &_icon {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    &_text {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+    }
+}
